@@ -1,0 +1,17 @@
+{
+  "name": "tts",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "exports": "./index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "pdf2txt": "node ./parse-pdf-to-test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "got": "^12.1.0"
+  }
+}

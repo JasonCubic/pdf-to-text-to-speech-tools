@@ -1,0 +1,8 @@
+node_modules
+
+*.txt
+*.pdf
+*.epub
+
+AdoptingInnerSource
+CathedralAndTheBazaar

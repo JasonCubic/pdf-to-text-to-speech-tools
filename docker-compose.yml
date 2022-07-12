@@ -1,0 +1,12 @@
+services:
+  # https://github.com/apache/tika-docker
+  tika:
+    image: apache/tika
+    ports:
+      - 9998:9998
+
+  # https://github.com/synesthesiam/opentts
+  opentts:
+    image: synesthesiam/opentts:en
+    ports:
+      - 5500:5500
